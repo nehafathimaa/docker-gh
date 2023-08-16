@@ -4,7 +4,7 @@ metadata:
   name: github-secret
 type: Opaque
 data:
-  GITHUB_PERSONAL_TOKEN: XXXXXXXXXXXXXXXXXXXXXXXXX
+  GITHUB_PERSONAL_TOKEN: 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
 ---
 apiVersion: apps/v1
 kind: Deployment
