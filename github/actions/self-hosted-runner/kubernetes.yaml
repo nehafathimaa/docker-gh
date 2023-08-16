@@ -27,9 +27,9 @@ spec:
         image: aimvector/github-runner:latest
         env:
         - name: GITHUB_OWNER
-          value: marcel-dempers
+          value: nehafathimaa
         - name: GITHUB_REPOSITORY
-          value: docker-development-youtube-series
+          value: docker-gh
         - name: GITHUB_PERSONAL_TOKEN 
           valueFrom:
             secretKeyRef:
