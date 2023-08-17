@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted  # This refers to your self-hosted Kubernetes runner
+    runs-on: self-hosted  # This refers to your self-hosted Kubernetes runners
     
     steps:
       - name: Checkout code
