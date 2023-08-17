@@ -3,7 +3,7 @@ name: Kubernetes Runner Workflow
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
