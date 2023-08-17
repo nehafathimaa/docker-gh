@@ -1,0 +1,17 @@
+name: Kubernetes Runner Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: self-hosted  # This refers to your self-hosted Kubernetes runner
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run on Kubernetes Runner
+        run: echo "Running job using self-hosted Kubernetes runner"
